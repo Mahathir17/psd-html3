@@ -1,0 +1,275 @@
+/* ==================================
+              Common CSS
+=====================================*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    margin: 0px;
+    padding: 0;
+}
+p{
+    color: #666666;
+}
+/* ==================================
+              Header CSS
+=====================================*/
+.top-header-area{
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    background: #2e2e2e;
+}
+.mini-menu{
+    float: left;
+    padding-left: 10px;
+}
+.mini-menu ul li{
+    display: inline-block;
+    padding: 23px 0;
+}
+.mini-menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    color: #9f9f9f;
+}
+.social-area{
+    float: right;
+    padding-top: 20px;
+}
+.social-area ul li{
+    display: inline-block;
+    background: #787878;
+    padding: 5px 10px;
+    transition: 0.3s;
+    border-radius: 50%;
+    margin-left: 10px;
+    
+}
+.social-area ul li i{
+    color: #fff;
+}
+.rss{
+    margin-right: 10px;
+}
+.nav-bar-area button{
+    width: 100%;
+    text-align: right;
+}
+.social-area ul li.linked-in:hover{
+    background: #0678B6;
+}
+.social-area ul li.tweet:hover{
+    background: #37B1E2;
+}
+.social-area ul li.pinterest:hover{
+    background: #E83F3A;
+}
+.social-area ul li.google-plus:hover{
+    background: #E83F3A;
+}
+.social-area ul li.rss:hover{
+    background: #ee802f;
+    margin-right: 10px;
+}
+.social-area ul li:hover{
+    transform: scale(1.3);
+}
+
+/* ===============Main-Menu============ */
+.logo-area{
+    float: left;
+    padding: 45px 0;
+    margin-left: 20px;
+}
+.search-area{
+    float: right;
+    padding-top: 55px;
+    padding-bottom: 45px;
+    margin-right: 20px;
+}
+.search-area input{
+    border: 0;
+    border-radius: 5px;
+}
+.search-area input[type="text"]{
+    background: #f1f1f1;
+    padding: 10px 8px;
+}
+.search-area input[type="submit"]{
+    padding: 10px 8px;
+    background: #0099ff;
+    color: #fff;
+}
+/* ===========Hero Area CSS=========== */
+.hero-area{
+    background: #f1f1f1;
+    height: auto;
+    width: 100%;
+    padding: 0 20px;
+}
+.hero-text h1{
+    font-size: 36px;
+    padding-top: 152px;
+    margin-bottom: 18px;
+    color: #333333;
+}
+.hero-text p{
+    font-size: 16px;
+    text-align: justify;
+}
+.hero-img img{
+    height: 440px;
+    width: 550px;
+    padding: 10px 0;
+}
+.hero-text button{
+    background: #0099ff;
+    color: white;
+}
+/* ==========Work-area=========== */
+.work-area{
+    padding: 0 20px;
+    margin: 40px 0;
+}
+.work-small img {
+	height: 108px;
+	width: 137px;
+}
+.work-small{
+    text-align: center;
+}
+.work-small h2{
+    color: #0099ff;
+    font-size: 16px;
+}
+.work-small p{
+    text-align: justify;
+    font-size: 13px;
+}
+/* ============Contact Today Area=========== */
+.contact-today{
+    background: #e0e0e0;
+    overflow: hidden;
+    border-left: 10px solid #0099ff;
+    margin: 0 20px;
+    padding: 20px 38px;
+    margin-bottom: 40px;
+}
+.contact-today button{
+    font-size: 26px;
+    float: right;
+    padding: 20px 12px;
+    background: #0099ff;
+    color: #e0e0e0;
+    border: 0;
+    border-radius: 5px;
+}
+.contact-today-text{
+    float: left;
+}
+.contact-today h1{
+    font-size: 36px;
+    font-family: Georgia;
+    font-weight: normal;
+}
+.contact-today p{
+    font-size: 18px;
+    color: #333333;
+}
+/* ==========Footer CSS========= */
+footer{
+    background: #1a1a1a;
+    padding: 45px 20px;
+}
+footer h1{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: normal;
+}
+footer h2{
+    color: #666666;
+    font-size: 14px;
+    font-weight: normal;
+}
+footer h3{
+    color: #666666;
+    font-size: 10px;
+    font-weight: normal; 
+}
+footer p{
+    color: #666666;
+    font-size: 12px;
+    text-align: justify;
+}
+footer a{
+    color: #0099ff;
+    font-size: 12px;
+}
+.about h1{
+    margin-bottom: 23px;
+}
+.about img{
+    height: 90px;
+    width: 215px;
+    margin-bottom: 23px;
+}
+.about p{
+    width: 220px;
+}
+.quick-link a{
+    text-decoration: none;
+}
+.quick-link li{
+    border-bottom: 1px solid rgb(54, 54, 54);
+}
+.quick-link ul{
+    list-style: none;
+}
+.quick-link li::before{
+    content: "» ";
+}
+.blog-post a{
+    float: right;
+}
+.contact-us input{
+    width: 225px;
+    border: 0;
+    border-radius: 5px;
+    margin: 5px 0;
+    color: #fff;
+    background: #232323;
+    padding: 8px 10px;
+}
+.contact-us textarea{
+    width: 225px;
+    border: 0;
+    border-radius: 5px;
+    margin: 5px 0;
+    color: #fff;
+    background: #232323;
+    padding: 8px 10px;
+}
+.contact-us button{
+    background: #0099ff;
+    color: #fff;
+}
+.copyright-area{
+    /* margin-top: 40px; */
+    background: #222222;
+    overflow: hidden;
+    padding: 25px 20px;
+}
+.copyright-area p {
+	margin-top: 0;
+	margin-bottom: 0rem;
+}
+.copyright-left{
+    float: left;
+}
+.copyright-right{
+    float: right;
+}
